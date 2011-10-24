@@ -1,0 +1,182 @@
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
+Upstream-Name: rocs
+Source: ftp.kde.org
+
+Files: *
+Copyright: 2008, Ugo Sangiori <ugorox@gmail.com>
+           2010-2011, Wagner Reck <wagner.reck@gmail.com>
+           2008-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+           2011, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2006-2007, Gael de Chalendar <kleag@free.fr>
+License: GPL-2+
+
+Files: src/Plugins/PluginManager.cpp
+       src/Plugins/importPlainTXT/PlainTxtFilePlugin.cpp
+       src/Plugins/importPlainTXT/PlainTxtFilePlugin.h
+       src/Plugins/dotParser/DotParser.cpp
+       src/Plugins/dotParser/tests/ParseDotTest.h
+       src/Plugins/dotParser/tests/ParseDotTest.cpp
+       src/Plugins/dotParser/DotParser.h
+       src/Plugins/FilePluginInterface.h
+       src/Plugins/kmlParser/KMLParser.h
+       src/Plugins/kmlParser/KMLHandler.h
+       src/Plugins/kmlParser/KMLHandler.cpp
+       src/Plugins/kmlParser/KMLParser.cpp
+       src/Plugins/FilePluginInterface.cpp
+       src/Plugins/MakeComplete/makecompletetoolsplugin.h
+       src/Plugins/MakeComplete/makecompletetoolsplugin.cpp
+       src/Plugins/GMLParser/GMLParser.cpp
+       src/Plugins/GMLParser/tests/ParseDotTest.h
+       src/Plugins/GMLParser/tests/ParseDotTest.cpp
+       src/Plugins/GMLParser/GMLParser.h
+       src/Plugins/PluginManager.h
+       src/Plugins/DataStructure/LinkedList/ListNode.cpp
+       src/Plugins/DataStructure/LinkedList/ListNode.h
+       src/Plugins/DataStructure/LinkedList/ListPlugin.h
+       src/Plugins/DataStructure/LinkedList/ListStructure.cpp
+       src/Plugins/DataStructure/LinkedList/ListPlugin.cpp
+       src/Plugins/DataStructure/LinkedList/ListStructure.h
+       src/Plugins/DataStructure/Graph/GraphPlugin.h
+       src/Plugins/DataStructure/Graph/GraphStructure.h
+       src/Plugins/DataStructure/Graph/GraphPlugin.cpp
+       src/Plugins/DataStructure/Graph/GraphStructure.cpp
+       src/Core/DataStructurePluginManager.h
+       src/Core/DocumentManager.h
+       src/Core/DynamicPropertiesList.h
+       src/Core/DataStructurePluginManager.cpp
+       src/Core/DocumentManager.cpp
+       src/Core/DynamicPropertiesList.cpp
+       src/Interface/ImporterExporterManager.h
+       src/Interface/edgepropertieswidget.h
+       src/Interface/edgepropertieswidget.cpp
+       src/Interface/PossibleIncludes.cpp
+       src/Interface/ImporterExporterManager.cpp
+       src/Interface/PossibleIncludes.h
+       src/Tests/TestDynamicProperties.h
+       src/Tests/TestDataStructure.cpp
+       src/Tests/TestDataStructure.h
+       src/Tests/TestDynamicProperties.cpp
+Copyright: 2009-2011, Tomaz Martins dos Santos Canabrava <tomaz.canabrava@gmail.com>
+           2010-2011, Wagner Reck <wagner.reck@gmail.com>
+           2011, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2010, Andrew Coles <andrew.i.coles@googlemail.com>
+License: GPL-3+
+
+Files: src/Plugins/DataStructure/Graph/GraphNode.cpp
+       src/Plugins/DataStructure/Graph/GraphNode.h
+       src/Plugins/ToolsPluginInterface.cpp
+       src/Actions/zoom.h
+       src/Actions/zoom.cpp
+       src/Core/DataStructure.h
+       src/Core/Data.cpp
+       src/Core/KrossBackend.cpp
+       src/Core/Pointer.h
+       src/Core/QtScriptBackend.h
+       src/Core/KrossBackend.h
+       src/Core/QtScriptBackend.cpp
+       src/Core/DataStructure.cpp
+       src/Core/Pointer.cpp
+       src/Core/Data.h
+       src/Interface/GraphScene.cpp
+       src/Interface/GraphScene.h
+Copyright: 2010-2011, Wagner Reck <wagner.reck@gmail.com>
+           2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+           2002-2004, Olivier Goffart <ogoffart@kde.org>
+           2001-2002, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2011 Andreas Cord-Landwehr <cola@uni-paderborn.de>
+License: LGPL-2.1+
+
+Files: src/Tests/testGraph.h
+       src/Tests/testGraph.cpp
+Copyright: 2004-2007 by Tomaz Canabrava <tomaz.canabrava@gmail.com>
+License: LGPL-2
+
+Files: doc/*
+Copyright: 2009, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+License: GFDL-1.2
+
+Files: cmake/*
+Copyright: 2004, Sandia Corporation
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3"
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation;
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU LIBRARY
+ GENERAL PUBLIC LICENSE version 2 can be found in "/usr/share/common-licenses/GPL-2"
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU LIBRARY
+ GENERAL PUBLIC LICENSE version 2.1 can be found in "/usr/share/common-licenses/GPL-2"
+
+License: GFDL-1.2
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License"
+ .
+ On Debian systems, the complete text of the GNU Free
+ Documentation License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2"

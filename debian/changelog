@@ -1,0 +1,32 @@
+rocs (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
+
+  * New upstream release (LP: #872506)
+  * debian/copyright:
+    - Fix licensing text for LGPL-2
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 04 Oct 2011 20:35:46 +0200
+
+rocs (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:17:58 +0200
+
+rocs (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 23:56:44 -0400
+
+rocs (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 27 Jul 2011 11:28:15 +0200
+
+rocs (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  * Initial release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 11 Jul 2011 12:45:05 +0200

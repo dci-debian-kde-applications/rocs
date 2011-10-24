@@ -1,0 +1,37 @@
+Source: rocs
+Section: math
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+ cmake,
+ debhelper (>= 7.0.50~),
+ pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6),
+ libboost1.46-dev
+Standards-Version: 3.9.1
+Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
+Vcs-Bzr: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/rocs
+Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/rocs
+
+Package: rocs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: graph theory IDE
+ Rocs aims to be a Graph Theory IDE for helping professors to show the results
+ of a graph algorithm and also helping students to do the algorithms.
+ .
+ Rocs has a scripting module, done in Qt Script, that interacts with the drawn
+ graph and every change in the graph with the script is reflected on the drawn
+ one.
+ .
+ This package is part of the KDE education module.
+
+Package: rocs-dbg
+Section: debug
+Architecture: any
+Breaks: kdeedu-dbg (<< 4:4.6.80)
+Replaces: kdeedu-dbg (<< 4:4.6.80)
+Depends: ${misc:Depends}, rocs (=${binary:Version})
+Description:  debugging symbols for rocs
+ This package contains debugging files used to investigate problems with
+ binaries included in rocs.
