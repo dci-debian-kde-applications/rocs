@@ -1,7 +1,8 @@
 Source: rocs
 Section: math
 Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake,
  debhelper (>= 7.0.50~),
@@ -10,8 +11,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  libboost1.46-dev
 Standards-Version: 3.9.1
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
-Vcs-Bzr: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/rocs
-Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/rocs
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/rocs.git
+Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/rocs.git
 
 Package: rocs
 Architecture: any
@@ -31,7 +32,7 @@ Section: debug
 Architecture: any
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
-Depends: ${misc:Depends}, rocs (=${binary:Version})
+Depends: ${misc:Depends}, rocs (= ${binary:Version})
 Description:  debugging symbols for rocs
  This package contains debugging files used to investigate problems with
  binaries included in rocs.
