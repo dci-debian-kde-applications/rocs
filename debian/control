@@ -1,6 +1,6 @@
 Source: rocs
 Section: math
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
