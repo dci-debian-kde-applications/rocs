@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6),
  libboost1.46-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/rocs.git
 Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/rocs.git
