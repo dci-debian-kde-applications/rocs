@@ -13,7 +13,4 @@
 ./usr/include/rocs/Rocs_Typedefs.h
 ./usr/include/rocs/ToolsPluginInterface.h
 ./usr/include/rocs/rocslib_export.h
-./usr/lib/kde4/rocs_assignvaluesplugin.so
-./usr/lib/kde4/rocs_generategraphplugin.so
-./usr/lib/kde4/rocs_transformedgesplugin.so
 ./usr/lib/librocslib.so
