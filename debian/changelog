@@ -10,6 +10,7 @@ rocs (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Convert copyright to copyright-format v1.0 and fix/update.
   * Add libboost-graph-dev build dependency, also manually installing
     libboost-graph1.49.0 since the -dev does not install it.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jun 2012 15:08:14 +0200
 

@@ -13,5 +13,6 @@
 ./usr/include/rocs/QtScriptBackend.h
 ./usr/include/rocs/Rocs_Typedefs.h
 ./usr/include/rocs/ToolsPluginInterface.h
+./usr/include/rocs/Topology.h
 ./usr/include/rocs/rocslib_export.h
 ./usr/lib/librocslib.so
