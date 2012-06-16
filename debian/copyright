@@ -50,20 +50,20 @@ Files: src/Core/DataStructurePluginManager.cpp
        src/Plugins/DataStructure/LinkedList/ListStructure.h
        src/Plugins/FilePluginInterface.cpp
        src/Plugins/FilePluginInterface.h
-       src/Plugins/FilePlugins/dotParser/DotParser.cpp
-       src/Plugins/FilePlugins/dotParser/DotParser.h
-       src/Plugins/FilePlugins/dotParser/tests/ParseDotTest.cpp
-       src/Plugins/FilePlugins/dotParser/tests/ParseDotTest.h
        src/Plugins/FilePlugins/GMLParser/GMLParser.cpp
        src/Plugins/FilePlugins/GMLParser/GMLParser.h
        src/Plugins/FilePlugins/GMLParser/tests/ParseGMLTest.cpp
        src/Plugins/FilePlugins/GMLParser/tests/ParseGMLTest.h
+       src/Plugins/FilePlugins/TXTParser/PlainTxtFilePlugin.cpp
+       src/Plugins/FilePlugins/TXTParser/PlainTxtFilePlugin.h
+       src/Plugins/FilePlugins/dotParser/DotParser.cpp
+       src/Plugins/FilePlugins/dotParser/DotParser.h
+       src/Plugins/FilePlugins/dotParser/tests/ParseDotTest.cpp
+       src/Plugins/FilePlugins/dotParser/tests/ParseDotTest.h
        src/Plugins/FilePlugins/kmlParser/KMLHandler.cpp
        src/Plugins/FilePlugins/kmlParser/KMLHandler.h
        src/Plugins/FilePlugins/kmlParser/KMLParser.cpp
        src/Plugins/FilePlugins/kmlParser/KMLParser.h
-       src/Plugins/FilePlugins/TXTParser/PlainTxtFilePlugin.cpp
-       src/Plugins/FilePlugins/TXTParser/PlainTxtFilePlugin.h
        src/Plugins/PluginManager.cpp
        src/Plugins/PluginManager.h
        src/Tests/TestDataStructure.cpp
@@ -75,12 +75,12 @@ Copyright: 2010-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
            2011, Andreas Cord-Landwehr <cola@uni-paderborn.de>
 License: GPL-3+
 
-Files: src/Plugins/FilePlugins/dotParser/dotgrammar.cpp
-       src/Plugins/FilePlugins/dotParser/dotgrammar.h
+Files: src/Plugins/FilePlugins/GMLParser/GMLGraphParsingHelper.cpp
+       src/Plugins/FilePlugins/GMLParser/GMLGraphParsingHelper.h
        src/Plugins/FilePlugins/dotParser/DotGraphParsingHelper.cpp
        src/Plugins/FilePlugins/dotParser/DotGraphParsingHelper.h
-       src/Plugins/FilePlugins/GMLParser/GMLGraphParsingHelper.cpp
-       src/Plugins/FilePlugins/GMLParser/GMLGraphParsingHelper.h
+       src/Plugins/FilePlugins/dotParser/dotgrammar.cpp
+       src/Plugins/FilePlugins/dotParser/dotgrammar.h
 Copyright: 2006-2007, Gael de Chalendar <kleag@free.fr>
 License: GPL-2
 
