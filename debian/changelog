@@ -7,6 +7,7 @@ rocs (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes required.
   * Add watch file.
   * Drop patch upstream_enable_exceptions.diff, backported from upstream.
+  * Convert copyright to copyright-format v1.0 and fix/update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jun 2012 15:08:14 +0200
 
