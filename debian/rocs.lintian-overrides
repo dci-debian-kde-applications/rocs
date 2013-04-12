@@ -1,1 +1,1 @@
-rocs: package-name-doesnt-match-sonames librocslib4
+rocs: package-name-doesnt-match-sonames librocscore4 librocsvisualeditor4

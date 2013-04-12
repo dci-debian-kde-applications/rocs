@@ -7,6 +7,7 @@ rocs (4:4.10.2-0r1) UNRELEASED; urgency=low
   * Update Uploaders, adding myself.
   * Update copyright.
   * Update installed files.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Apr 2013 16:50:10 +0200
 
