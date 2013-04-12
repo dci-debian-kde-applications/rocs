@@ -62,7 +62,6 @@ Comment:
  for the automatic unit tests; they are explicitly not linked or imported to the program binaries or
  libraries.
 
-
 Files: doc/*
 Copyright: 2009, Anne-Marie Mahfouf <annma@kde.org>
            2009, Tomaz Canabrava <tomaz.canabrava@gmail.com>
