@@ -10,6 +10,9 @@ rocs (4:4.10.2-0r1) UNRELEASED; urgency=low
   * Update lintian overrides.
   * Disable the build and execution of unit tests for now.
 
+  [ Sune Vuorela ]
+  * Add qtwebkit to build-deps.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Apr 2013 16:50:10 +0200
 
 rocs (4:4.8.4-1) unstable; urgency=low
