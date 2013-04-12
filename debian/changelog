@@ -6,6 +6,7 @@ rocs (4:4.10.2-0r1) UNRELEASED; urgency=low
   * Bump the kde-sc-dev-latest and kdelibs5-dev build dependencies to 4.10.
   * Update Uploaders, adding myself.
   * Update copyright.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Apr 2013 16:50:10 +0200
 

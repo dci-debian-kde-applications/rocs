@@ -1,18 +1,17 @@
 # rocslib-dev
+./usr/include/rocs/CoreTypes.h
 ./usr/include/rocs/Data.h
 ./usr/include/rocs/DataItem.h
+./usr/include/rocs/DataStructureBackendManager.h
 ./usr/include/rocs/DataStructure.h
+./usr/include/rocs/DataStructurePluginInterface.h
 ./usr/include/rocs/Document.h
-./usr/include/rocs/DynamicPropertiesList.h
-./usr/include/rocs/FilePluginInterface.h
-./usr/include/rocs/GraphicsLayout.h
-./usr/include/rocs/KrossBackend.h
-./usr/include/rocs/PluginManager.h
+./usr/include/rocs/GraphFileBackendManager.h
+./usr/include/rocs/GraphFilePluginInterface.h
+./usr/include/rocs/GraphVisualEditor.h
 ./usr/include/rocs/Pointer.h
 ./usr/include/rocs/PointerItem.h
-./usr/include/rocs/QtScriptBackend.h
-./usr/include/rocs/Rocs_Typedefs.h
-./usr/include/rocs/ToolsPluginInterface.h
+./usr/include/rocs/RocsCoreExport.h
 ./usr/include/rocs/Topology.h
-./usr/include/rocs/rocslib_export.h
-./usr/lib/librocslib.so
+./usr/lib/librocscore.so
+./usr/lib/librocsvisualeditor.so
