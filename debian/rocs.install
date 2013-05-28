@@ -61,7 +61,6 @@ usr/share/kde4/apps/rocs/icons/hicolor/16x16/actions/rocsaligntree.png
 usr/share/kde4/apps/rocs/icons/hicolor/16x16/actions/rocsalignvmiddle.png
 usr/share/kde4/apps/rocs/icons/hicolor/16x16/actions/rocsselect.png
 usr/share/kde4/apps/rocs/icons/hicolor/16x16/actions/rocsselectmove.png
-usr/share/kde4/apps/rocs/icons/hicolor/16x16/apps/rocs.png
 usr/share/kde4/apps/rocs/icons/hicolor/22x22/actions/rocsaddedge.png
 usr/share/kde4/apps/rocs/icons/hicolor/22x22/actions/rocsaddnode.png
 usr/share/kde4/apps/rocs/icons/hicolor/22x22/actions/rocsalignbottom.png
@@ -84,7 +83,6 @@ usr/share/kde4/apps/rocs/icons/hicolor/32x32/actions/rocsaligntree.png
 usr/share/kde4/apps/rocs/icons/hicolor/32x32/actions/rocsalignvmiddle.png
 usr/share/kde4/apps/rocs/icons/hicolor/32x32/actions/rocsselect.png
 usr/share/kde4/apps/rocs/icons/hicolor/32x32/actions/rocsselectmove.png
-usr/share/kde4/apps/rocs/icons/hicolor/32x32/apps/rocs.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsaddedge.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsalignbottom.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsaligncircle.png
@@ -95,7 +93,6 @@ usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsaligntop.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsaligntree.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsalignvmiddle.png
 usr/share/kde4/apps/rocs/icons/hicolor/48x48/actions/rocsselectmove.png
-usr/share/kde4/apps/rocs/icons/hicolor/48x48/apps/rocs.png
 usr/share/kde4/apps/rocs/icons/hicolor/64x64/actions/rocsaddedge.png
 usr/share/kde4/apps/rocs/icons/hicolor/64x64/actions/rocsalignbottom.png
 usr/share/kde4/apps/rocs/icons/hicolor/64x64/actions/rocsaligncircle.png
@@ -115,6 +112,9 @@ usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocseyeblack.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsnew.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocstexticon.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsvalueicon.svgz
+usr/share/icons/hicolor/16x16/apps/rocs.png
+usr/share/icons/hicolor/32x32/apps/rocs.png
+usr/share/icons/hicolor/48x48/apps/rocs.png
 usr/share/kde4/apps/rocs/rocsui.rc
 usr/share/kde4/apps/rocs_rootedtree/RootedTreeui.rc
 usr/share/kde4/config.kcfg/rocs.kcfg
