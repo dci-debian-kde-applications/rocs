@@ -1,9 +1,12 @@
-rocs (4:4.10.2-2) UNRELEASED; urgency=low
+rocs (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Remove the extra libboost-graph1.49.0 build dependency, now unused.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Apr 2013 09:21:02 +0200
+  [ Maximiliano Curia ]
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 13:45:26 +0200
 
 rocs (4:4.10.2-1) experimental; urgency=low
 
