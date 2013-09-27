@@ -2,6 +2,7 @@ rocs (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update install files.
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:18:09 +0200
 
