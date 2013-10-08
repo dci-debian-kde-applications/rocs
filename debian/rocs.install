@@ -85,6 +85,7 @@ usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocseyeblack.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsnew.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocstexticon.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsvalueicon.svgz
+usr/share/kde4/apps/rocs_rootedtree/RootedTreeui.rc
 usr/share/icons/hicolor/16x16/apps/rocs.png
 usr/share/icons/hicolor/32x32/apps/rocs.png
 usr/share/icons/hicolor/48x48/apps/rocs.png
