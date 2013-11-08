@@ -5,9 +5,9 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10),
+ kdelibs5-dev (>= 4:4.11),
  libboost-dev (>= 1.43),
  libboost-graph-dev,
  libqtwebkit-dev,
