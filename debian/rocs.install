@@ -16,6 +16,12 @@ usr/lib/librocsvisualeditor.so.4
 usr/lib/librocsvisualeditor.so.4.*
 usr/share/applications/kde4/rocs.desktop
 usr/share/doc/kde/HTML/*/rocs/
+usr/share/icons/hicolor/16x16/apps/rocs.png
+usr/share/icons/hicolor/32x32/apps/rocs.png
+usr/share/icons/hicolor/48x48/apps/rocs.png
+usr/share/icons/hicolor/64x64/apps/rocs.png
+usr/share/icons/hicolor/scalable/apps/rocs.svgz
+usr/share/kde4/apps/rocs/
 usr/share/kde4/apps/rocs/examples/AdjustProjection.js
 usr/share/kde4/apps/rocs/examples/NameAndNodes.js
 usr/share/kde4/apps/rocs/examples/NamesValues.js
@@ -86,12 +92,6 @@ usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsnew.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocstexticon.svgz
 usr/share/kde4/apps/rocs/icons/hicolor/scalable/actions/rocsvalueicon.svgz
 usr/share/kde4/apps/rocs_rootedtree/RootedTreeui.rc
-usr/share/icons/hicolor/16x16/apps/rocs.png
-usr/share/icons/hicolor/32x32/apps/rocs.png
-usr/share/icons/hicolor/48x48/apps/rocs.png
-usr/share/icons/hicolor/64x64/apps/rocs.png
-usr/share/icons/hicolor/scalable/apps/rocs.svgz
-usr/share/kde4/apps/rocs/
 usr/share/kde4/config.kcfg/rocs.kcfg
 usr/share/kde4/config/rocs.knsrc
 usr/share/kde4/services/rocs_GraphStructure.desktop

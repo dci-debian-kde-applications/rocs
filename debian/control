@@ -5,14 +5,16 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libboost-dev (>= 1.43),
- libboost-graph-dev,
- libqtwebkit-dev,
- libx11-dev,
- libgrantlee-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libboost-dev (>= 1.43),
+               libboost-graph-dev,
+               libgrantlee-dev,
+               libqtwebkit-dev,
+               libx11-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/rocs.git
@@ -21,7 +23,7 @@ Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/rocs.git
 Package: rocs
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: graph theory IDE
  Rocs aims to be a Graph Theory IDE for helping professors to show the results
  of a graph algorithm and also helping students to do the algorithms.
