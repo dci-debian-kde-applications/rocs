@@ -1,3 +1,9 @@
+rocs (4:4.11.5-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 15:51:47 +0100
+
 rocs (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
