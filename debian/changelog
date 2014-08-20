@@ -1,6 +1,7 @@
 rocs (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update install file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:20:54 +0200
 

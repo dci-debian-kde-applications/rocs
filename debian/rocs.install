@@ -14,6 +14,7 @@ usr/lib/librocscore.so.4
 usr/lib/librocscore.so.4.*
 usr/lib/librocsvisualeditor.so.4
 usr/lib/librocsvisualeditor.so.4.*
+usr/share/appdata/rocs.appdata.xml
 usr/share/applications/kde4/rocs.desktop
 usr/share/doc/kde/HTML/*/rocs/
 usr/share/icons/hicolor/16x16/apps/rocs.png
