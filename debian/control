@@ -1,7 +1,7 @@
 Source: rocs
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
@@ -18,8 +18,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/rocs.git
-Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/rocs.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/rocs.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/rocs.git/
 
 Package: rocs
 Architecture: any

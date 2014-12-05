@@ -1,3 +1,11 @@
+rocs (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream RC release
+  * Merge with Debian, remaining changes:
+   - not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:53 +0100
+
 rocs (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
@@ -22,6 +30,61 @@ rocs (4:4.13.3-1) unstable; urgency=medium
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Jul 2014 10:55:02 +0200
+
+rocs (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:51:35 -0700
+
+rocs (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 18:03:09 +0200
+
+rocs (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:46:09 +0200
+
+rocs (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 17:39:40 +0200
+
+rocs (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 20:58:36 +0200
+
+rocs (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * update not-installed
+  * add appdata file to .install
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:52:10 +0200
+
+rocs (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 12:10:50 +0100
+
+rocs (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - use versioned boost depends
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:05 +0100
 
 rocs (4:4.13.1-1) unstable; urgency=medium
 
@@ -94,6 +157,154 @@ rocs (4:4.10.4-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 14:31:39 +0200
 
+rocs (4:4.13.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Build against boost1.55.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 22:15:10 +0100
+
+rocs (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:33:47 +0100
+
+rocs (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 12:01:18 +0200
+
+rocs (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 13:05:36 +0100
+
+rocs (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 12:10:11 +0000
+
+rocs (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 21:21:42 +0100
+
+rocs (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:36:04 +0000
+
+rocs (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:50:43 +0000
+
+rocs (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:53:00 +0000
+
+rocs (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:51:25 +0000
+
+rocs (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:45:33 +0100
+
+rocs (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 18:07:21 +0100
+
+rocs (4:4.11.2-0ubuntu2) trusty; urgency=low
+
+  * Bump to Boost 1.54.
+
+ -- Dmitrijs Ledkovs <xnox@ubuntu.com>  Sat, 26 Oct 2013 22:26:43 +0100
+
+rocs (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 15:01:55 +0100
+
+rocs (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+  * Add new icons to install file 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:45:42 +0100
+
+rocs (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:46:03 +0100
+
+rocs (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 20:14:51 +0100
+
+rocs (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream RC release
+
+  [ Philip Muškovac ]
+  * Refresh documentation files in rocs.install
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 19 Jul 2013 12:33:40 +0000
+
+rocs (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:36:26 +0100
+
+rocs (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Build-depend on libgrantlee-dev and libx11-dev
+  * Update rocs.install and not-installed 
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 02:04:20 +0100
+
+rocs (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:57:32 +0100
+
+rocs (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - use versioned boost depends
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 May 2013 16:55:08 +0000
+
 rocs (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
@@ -111,6 +322,118 @@ rocs (4:4.10.2-1) experimental; urgency=low
 
  -- Sune Vuorela <sune@debian.org>  Fri, 12 Apr 2013 20:33:28 +0000
 
+rocs (4:4.10.2-0ubuntu2) saucy; urgency=low
+
+  * Boost 1.53 transition.
+
+ -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Fri, 26 Apr 2013 11:30:10 +0100
+
+rocs (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 15:06:30 +0200
+
+rocs (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 17:01:27 +0000
+
+rocs (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 12:25:07 +0000
+
+rocs (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 16:35:31 +0000
+
+rocs (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:51:02 +0100
+
+rocs (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+
+  [ Philip Muškovac ]
+  * add new images to rocs.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:51:27 +0000
+
+rocs (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:21:13 +0000
+
+rocs (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Add build-dep on libqtwebkit-dev
+  * Don't fail on tests
+  * update rocs.install and not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 16:28:26 +0000
+
+rocs (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:52:33 +0100
+
+rocs (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:47:45 +0100
+
+rocs (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  [ Harald Sitter ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Change soname from 4.9.0 to 4.9.* 
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 04 Sep 2012 15:34:07 +0530
+
+rocs (4:4.9.0-0ubuntu2) quantal; urgency=low
+
+  * Build-dep on kdelibs 4.9.0a, adjust .install files to new library
+    version no
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Aug 2012 11:57:53 +0100
+
+rocs (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 22:50:29 +0100
+
+rocs (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 23:49:29 +0200
+
+rocs (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 16:16:33 +0100
+
 rocs (4:4.8.4-1) unstable; urgency=low
 
   * Team upload.
@@ -126,6 +449,44 @@ rocs (4:4.8.4-1) unstable; urgency=low
   * Update installed files.
 
  -- Pino Toscano <pino@debian.org>  Sat, 16 Jun 2012 16:49:53 +0200
+
+rocs (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 03 Apr 2012 17:37:34 +0530
+
+rocs (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:15:04 +0100
+
+rocs (4:4.8.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 23 Jan 2012 22:08:32 +0100
+
+rocs (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 05 Jan 2012 12:18:35 +0000
+
+rocs (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+    - update rocs.install and not-installed
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 22:06:22 +0100
+
+rocs (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+  * Add build-dep on libboost-graph1.46-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 17 Dec 2011 15:07:00 +0000
 
 rocs (4:4.7.4-2) unstable; urgency=low
 
@@ -147,9 +508,49 @@ rocs (4:4.7.4-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:40:00 +0100
 
+rocs (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 01 Nov 2011 15:43:03 +0100
+
 rocs (4:4.7.2-1) experimental; urgency=low
 
   [ Felix Geyer ]
   * Initial release, based on the Kubuntu package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:38 -0300
+
+rocs (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
+
+  * New upstream release (LP: #872506)
+  * debian/copyright:
+    - Fix licensing text for LGPL-2
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 04 Oct 2011 20:35:46 +0200
+
+rocs (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:17:58 +0200
+
+rocs (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 23:56:44 -0400
+
+rocs (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 27 Jul 2011 11:28:15 +0200
+
+rocs (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  * Initial release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 11 Jul 2011 12:45:05 +0200
+
