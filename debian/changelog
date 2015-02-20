@@ -7,7 +7,7 @@ rocs (4:14.12.2-1~) UNRELEASED; urgency=medium
 rocs (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:40:39 -0800
@@ -105,6 +105,9 @@ rocs (4:4.13.2-0ubuntu1) utopic; urgency=medium
   * Merge with Debian, remaining change:
    - use versioned boost depends
 
+  [ Dimitri John Ledkov ]
+  * Build against boost1.55.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:05 +0100
 
 rocs (4:4.13.1-1) unstable; urgency=medium
@@ -177,12 +180,6 @@ rocs (4:4.10.4-1) experimental; urgency=low
   * Add myself to uploaders.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 14:31:39 +0200
-
-rocs (4:4.13.0-0ubuntu2) UNRELEASED; urgency=medium
-
-  * Build against boost1.55.
-
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 22:15:10 +0100
 
 rocs (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
@@ -265,7 +262,7 @@ rocs (4:4.11.2-0ubuntu1) saucy; urgency=low
 rocs (4:4.11.1-0ubuntu1) saucy; urgency=low
 
   * New upstream bugfix release.
-  * Add new icons to install file 
+  * Add new icons to install file
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:45:42 +0100
 
@@ -308,7 +305,7 @@ rocs (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Philip Muškovac ]
   * Build-depend on libgrantlee-dev and libx11-dev
-  * Update rocs.install and not-installed 
+  * Update rocs.install and not-installed
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 02:04:20 +0100
 
@@ -425,7 +422,7 @@ rocs (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Change soname from 4.9.0 to 4.9.* 
+  * Change soname from 4.9.0 to 4.9.*
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 04 Sep 2012 15:34:07 +0530
 
@@ -479,7 +476,7 @@ rocs (4:4.8.2-0ubuntu1) precise; urgency=low
 
 rocs (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:15:04 +0100
 
@@ -565,7 +562,7 @@ rocs (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 rocs (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 27 Jul 2011 11:28:15 +0200
 
@@ -574,4 +571,3 @@ rocs (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Initial release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 11 Jul 2011 12:45:05 +0200
-
