@@ -7,14 +7,23 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libboost-dev (>= 1.43),
-               libboost-graph-dev,
-               libgrantlee-dev,
-               libqtwebkit-dev,
-               libx11-dev,
-               pkg-kde-tools (>= 0.12)
+               extra-cmake-modules (>= 1.7.0),
+               kdoctools-dev,
+               libboost-dev (>= 1.49),
+               libgrantlee5-dev (>= 5.0.0),
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5itemviews-dev,
+               libkf5texteditor-dev,
+               libkf5xmlgui-dev,
+               libqt5svg5-dev (>= 5.4),
+               libqt5webkit5-dev (>= 5.4),
+               libqt5xmlpatterns5-dev (>= 5.4),
+               pkg-kde-tools (>= 0.12),
+               qtdeclarative5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
