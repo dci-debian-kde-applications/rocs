@@ -48,7 +48,8 @@ Copyright: 2006-2007, Gael de Chalendar <kleag@free.fr>
            2012, Andreas Cord-Landwehr <cola@uni-paderborn.de>
 License: GPL-2
 
-Files: RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/*/*.gv
+Files: libgraphtheory/fileformats/dot/autotests/testfiles/*/*.gv
+Copyright: 2011 AT&T Intellectual Property
 License: EPL-1
 Comment:
  Copyright Notice for Test Graphs
