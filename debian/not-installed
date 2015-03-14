@@ -1,4 +1,7 @@
 # rocslib-dev
+./usr/include/rocs/edge.h
+./usr/include/rocs/graphdocument.h
+./usr/include/rocs/node.h
 ./usr/include/rocs/CoreTypes.h
 ./usr/include/rocs/Data.h
 ./usr/include/rocs/DataItem.h
@@ -13,8 +16,8 @@
 ./usr/include/rocs/PointerItem.h
 ./usr/include/rocs/RocsCoreExport.h
 ./usr/include/rocs/Topology.h
-./usr/lib/librocscore.so
-./usr/lib/librocsvisualeditor.so
+./usr/lib/*/librocsgraphtheory.so.0
 ./usr/include/rocs/ConsoleModule.h
 ./usr/include/rocs/DataStructureBackendInterface.h
-
+./usr/lib/x86_64-linux-gnu/librocsgraphtheory.so
+./usr/lib/i386-linux-gnu/librocsgraphtheory.so
