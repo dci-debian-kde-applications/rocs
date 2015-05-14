@@ -1,8 +1,9 @@
-rocs (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+rocs (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:40:12 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 23:17:39 -0700
 
 rocs (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
