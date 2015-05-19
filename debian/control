@@ -23,15 +23,15 @@ Build-Depends: cmake (>= 2.8.11~),
                libkf5itemviews-dev (>= 5.7~),
                libkf5texteditor-dev (>= 5.7~),
                libkf5xmlgui-dev (>= 5.7~),
-               libqt5svg5-dev (>= 5.4~),
-               libqt5webkit5-dev (>= 5.4~),
-               libqt5xmlpatterns5-dev (>= 5.4~),
+               libqt5svg5-dev (>= 5.4),
+               libqt5webkit5-dev (>= 5.4),
+               libqt5xmlpatterns5-dev (>= 5.4),
                libqtwebkit-dev,
                libx11-dev,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.4~),
-               qtdeclarative5-dev (>= 5.4~),
-               qtscript5-dev (>= 5.4~)
+               qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
