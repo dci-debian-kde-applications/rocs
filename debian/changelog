@@ -3,6 +3,7 @@ rocs (4:15.04.2-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:05:08 +0200
 
