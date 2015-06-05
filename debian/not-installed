@@ -1,20 +1,3 @@
 # rocslib-dev
-./usr/include/rocs/CoreTypes.h
-./usr/include/rocs/Data.h
-./usr/include/rocs/DataItem.h
-./usr/include/rocs/DataStructureBackendManager.h
-./usr/include/rocs/DataStructure.h
-./usr/include/rocs/DataStructurePluginInterface.h
-./usr/include/rocs/Document.h
-./usr/include/rocs/GraphFileBackendManager.h
-./usr/include/rocs/GraphFilePluginInterface.h
-./usr/include/rocs/GraphVisualEditor.h
-./usr/include/rocs/Pointer.h
-./usr/include/rocs/PointerItem.h
-./usr/include/rocs/RocsCoreExport.h
-./usr/include/rocs/Topology.h
-./usr/lib/librocscore.so
-./usr/lib/librocsvisualeditor.so
-./usr/include/rocs/ConsoleModule.h
-./usr/include/rocs/DataStructureBackendInterface.h
-
+usr/include/rocs/
+usr/lib/*/librocsgraphtheory.so
