@@ -1,3 +1,10 @@
+rocs (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Remove upstream patch test-use-new-graph-format
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 16:56:33 +0000
+
 rocs (4:15.07.90-0ubuntu2) wily; urgency=medium
 
   * debian/patches/test-use-new-graph-format: Cherry-pick from upstream to
