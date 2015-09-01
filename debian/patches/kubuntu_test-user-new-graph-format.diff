@@ -1,0 +1,15 @@
+Description: Use new graph file format in unit test.
+Author: Andreas Cord-Landwehr
+Origin: http://quickgit.kde.org/?p=rocs.git&a=commitdiff&h=7e1846828e91d604e483bd621696e247df902afb&hp=4d7564256380683e34f8fb74dd31da7b34d210b2
+
+--- rocs-15.07.90.orig/src/autotests/test_project.cpp
++++ rocs-15.07.90/src/autotests/test_project.cpp
+@@ -60,7 +60,7 @@ void TestProject::projectOperations()
+ 
+     // test import of graph
+     QTemporaryFile graphFile;
+-    graphFile.setFileTemplate("XXXXXXX.graph");
++    graphFile.setFileTemplate("XXXXXXX.graph2");
+     graphFile.open();
+     GraphTheory::GraphDocumentPtr graphDoc = project.importGraphDocument(QUrl::fromLocalFile(graphFile.fileName()));
+     QCOMPARE(project.graphDocuments().length(), 1);

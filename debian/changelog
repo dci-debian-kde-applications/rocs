@@ -1,3 +1,9 @@
+rocs (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Add back kubuntu_test-user-new-graph-format.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 13:51:38 +0100
+
 rocs (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
