@@ -1,4 +1,12 @@
 usr/bin/rocs
 usr/lib/*/librocsgraphtheory.so.0
-usr/lib/*/qt5/plugins/rocs/*
-usr/share/*
+usr/lib/*/qt5/plugins/rocs/
+usr/share/appdata/org.kde.rocs.appdata.xml
+usr/share/applications/org.kde.rocs.desktop
+usr/share/config.kcfg/rocs.kcfg
+usr/share/doc/HTML/*/rocs/
+usr/share/icons/hicolor/*/actions/rocs*
+usr/share/icons/hicolor/*/apps/rocs.*
+usr/share/kxmlgui5/rocs/
+usr/share/rocs/
+usr/share/rocsgraphtheory/

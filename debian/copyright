@@ -1,23 +1,298 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: rocs
-Source: ftp.kde.org
+Source: git://anongit.kde.org/rocs.git
 
 Files: *
-Copyright: 2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+Copyright: 2011-2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2011-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2011-2012, Andreas Cord-Landwehr <phoenixx@uni-paderborn.de>
+           2010, Andrius da Costa Ribas <andriusmao@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
            2008, Ugo Sangiori <ugorox@gmail.com>
            2009-2012, Wagner Reck <wagner.reck@gmail.com>
-           2010, Andrius da Costa Ribas <andriusmao@gmail.com>
-           2011-2012, Andreas Cord-Landwehr <cola@uni-paderborn.de> <phoenixx@uni-paderborn.de>
 License: GPL-2+
 
-Files: RocsCore/Data.cpp
+Files: libgraphtheory/autotests/test_graphoperations.cpp
+       libgraphtheory/autotests/test_graphoperations.h
+       libgraphtheory/autotests/test_kernel.cpp
+       libgraphtheory/autotests/test_kernel.h
+       libgraphtheory/autotests/test_kernelscriptapi.cpp
+       libgraphtheory/autotests/test_kernelscriptapi.h
+       libgraphtheory/dialogs/edgeproperties.cpp
+       libgraphtheory/dialogs/edgeproperties.h
+       libgraphtheory/dialogs/edgetypeproperties.cpp
+       libgraphtheory/dialogs/edgetypeproperties.h
+       libgraphtheory/dialogs/nodeproperties.cpp
+       libgraphtheory/dialogs/nodeproperties.h
+       libgraphtheory/dialogs/nodetypeproperties.cpp
+       libgraphtheory/dialogs/nodetypeproperties.h
+       libgraphtheory/dialogs/propertydelegate.cpp
+       libgraphtheory/dialogs/propertydelegate.h
+       libgraphtheory/edge.cpp
+       libgraphtheory/edge.h
+       libgraphtheory/edgetype.cpp
+       libgraphtheory/edgetype.h
+       libgraphtheory/edgetypestyle.cpp
+       libgraphtheory/edgetypestyle.h
+       libgraphtheory/editor.cpp
+       libgraphtheory/editor.h
+       libgraphtheory/editorplugins/assignvalues/assignvaluesplugin.cpp
+       libgraphtheory/editorplugins/assignvalues/assignvaluesplugin.h
+       libgraphtheory/editorplugins/assignvalues/assignvalueswidget.cpp
+       libgraphtheory/editorplugins/assignvalues/assignvalueswidget.h
+       libgraphtheory/editorplugins/editorplugininterface.cpp
+       libgraphtheory/editorplugins/editorplugininterface.h
+       libgraphtheory/editorplugins/editorpluginmanager.cpp
+       libgraphtheory/editorplugins/editorpluginmanager.h
+       libgraphtheory/editorplugins/generategraph/generategraphplugin.cpp
+       libgraphtheory/editorplugins/generategraph/generategraphplugin.h
+       libgraphtheory/editorplugins/generategraph/generategraphwidget.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgesplugin.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgesplugin.h
+       libgraphtheory/editorplugins/transformedges/transformedgeswidget.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgeswidget.h
+       libgraphtheory/fileformats/fileformatinterface.cpp
+       libgraphtheory/fileformats/fileformatinterface.h
+       libgraphtheory/fileformats/fileformatmanager.cpp
+       libgraphtheory/fileformats/fileformatmanager.h
+       libgraphtheory/fileformats/rocs1/autotests/testrocs1fileformat.cpp
+       libgraphtheory/fileformats/rocs1/autotests/testrocs1fileformat.h
+       libgraphtheory/fileformats/rocs2/autotests/testrocs2fileformat.cpp
+       libgraphtheory/fileformats/rocs2/autotests/testrocs2fileformat.h
+       libgraphtheory/fileformats/rocs2/rocs2fileformat.cpp
+       libgraphtheory/fileformats/rocs2/rocs2fileformat.h
+       libgraphtheory/fileformats/tgf/autotests/testtgffileformat.cpp
+       libgraphtheory/fileformats/tgf/autotests/testtgffileformat.h
+       libgraphtheory/fileformats/tikz/autotests/testtikzfileformat.cpp
+       libgraphtheory/fileformats/tikz/autotests/testtikzfileformat.h
+       libgraphtheory/fileformats/tikz/tikzfileformat.cpp
+       libgraphtheory/fileformats/tikz/tikzfileformat.h
+       libgraphtheory/graphdocument.cpp
+       libgraphtheory/graphdocument.h
+       libgraphtheory/kernel/documentwrapper.cpp
+       libgraphtheory/kernel/documentwrapper.h
+       libgraphtheory/kernel/edgewrapper.cpp
+       libgraphtheory/kernel/edgewrapper.h
+       libgraphtheory/kernel/kernel.cpp
+       libgraphtheory/kernel/kernel.h
+       libgraphtheory/kernel/modules/console/consolemodule.cpp
+       libgraphtheory/kernel/modules/console/consolemodule.h
+       libgraphtheory/kernel/nodewrapper.cpp
+       libgraphtheory/kernel/nodewrapper.h
+       libgraphtheory/libgraphtheoryexport.h
+       libgraphtheory/models/edgemodel.cpp
+       libgraphtheory/models/edgemodel.h
+       libgraphtheory/models/edgepropertymodel.cpp
+       libgraphtheory/models/edgepropertymodel.h
+       libgraphtheory/models/edgetypemodel.cpp
+       libgraphtheory/models/edgetypemodel.h
+       libgraphtheory/models/edgetypepropertymodel.cpp
+       libgraphtheory/models/edgetypepropertymodel.h
+       libgraphtheory/models/nodemodel.cpp
+       libgraphtheory/models/nodemodel.h
+       libgraphtheory/models/nodepropertymodel.cpp
+       libgraphtheory/models/nodepropertymodel.h
+       libgraphtheory/models/nodetypemodel.cpp
+       libgraphtheory/models/nodetypemodel.h
+       libgraphtheory/models/nodetypepropertymodel.cpp
+       libgraphtheory/models/nodetypepropertymodel.h
+       libgraphtheory/modifiers/topology.cpp
+       libgraphtheory/modifiers/topology.h
+       libgraphtheory/modifiers/valueassign.cpp
+       libgraphtheory/modifiers/valueassign.h
+       libgraphtheory/node.cpp
+       libgraphtheory/node.h
+       libgraphtheory/nodetype.cpp
+       libgraphtheory/nodetype.h
+       libgraphtheory/nodetypestyle.cpp
+       libgraphtheory/nodetypestyle.h
+       libgraphtheory/qml/AddEdgeAction.qml
+       libgraphtheory/qml/AddNodeAction.qml
+       libgraphtheory/qml/DeleteAction.qml
+       libgraphtheory/qml/EdgePropertyItem.qml
+       libgraphtheory/qml/Line.qml
+       libgraphtheory/qml/NodePropertyItem.qml
+       libgraphtheory/qml/Scene.qml
+       libgraphtheory/qml/SelectMoveAction.qml
+       libgraphtheory/qml/SelectionRectangle.qml
+       libgraphtheory/qtquickitems/edgeitem.cpp
+       libgraphtheory/qtquickitems/edgeitem.h
+       libgraphtheory/qtquickitems/nodeitem.cpp
+       libgraphtheory/qtquickitems/nodeitem.h
+       libgraphtheory/qtquickitems/qsgarrowheadnode.cpp
+       libgraphtheory/qtquickitems/qsgarrowheadnode.h
+       libgraphtheory/qtquickitems/qsglinenode.cpp
+       libgraphtheory/qtquickitems/qsglinenode.h
+       libgraphtheory/tests/scenetest.cpp
+       libgraphtheory/typenames.h
+       libgraphtheory/view.cpp
+       libgraphtheory/view.h
+       src/autotests/test_project.cpp
+       src/autotests/test_project.h
+       src/project/project.cpp
+       src/project/project.h
+       src/ui/documenttypeswidget.cpp
+       src/ui/documenttypeswidget.h
+       src/ui/edgetypesdelegate.cpp
+       src/ui/edgetypesdelegate.h
+       src/ui/nodetypesdelegate.cpp
+       src/ui/nodetypesdelegate.h
+Copyright: 2011-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+Files: RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/KW91.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/Latin1.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/NaN.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/abstract.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/alf.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/arrows.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/awilliams.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust1.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust3.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust4.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust5.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/crazy.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/ctext.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/dfa.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/fig6.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/fsm.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/grammar.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/hashtable.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/honda-tokoro.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/japanese.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/jcctree.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/jsort.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/ldbxtried.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/longflat.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/mike.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/nhg.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/oldarrows.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pgram.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pm2way.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pmpipe.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/polypoly.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/proc3d.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/psfonttest.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/record2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/records.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/rowe.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/russian.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/sdh.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/shells.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/states.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/structs.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/switch.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/table.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/train11.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/trapeziumlr.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/tree.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/triedds.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/try.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/unix.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/unix2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/viewfile.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/world.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/ER.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/Heawood.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/Petersen.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/ngk10_4.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/process.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/KW91.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/Latin1.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/NaN.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/abstract.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/alf.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/arrows.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/awilliams.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust1.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust3.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust4.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust5.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/crazy.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/ctext.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/dfa.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/fig6.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/fsm.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/grammar.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/hashtable.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/honda-tokoro.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/japanese.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/jcctree.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/jsort.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/ldbxtried.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/longflat.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/mike.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/nhg.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/oldarrows.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pgram.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pm2way.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pmpipe.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/polypoly.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/proc3d.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/psfonttest.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/record2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/records.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/rowe.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/russian.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/sdh.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/shells.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/states.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/structs.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/switch.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/table.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/train11.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/trapeziumlr.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/tree.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/triedds.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/try.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/unix.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/unix2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/viewfile.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/world.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/ER.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/Heawood.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/Petersen.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/ngk10_4.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/process.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/COPYING.TESTDATA.EPL-1
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/README
+       libgraphtheory/fileformats/dot/autotests/testfiles/COPYING.TESTDATA.EPL-1
+       libgraphtheory/fileformats/dot/autotests/testfiles/README
+Copyright: 2011, AT&T Intellectual Property
+License: EPL-1
+Comment:
+ License(s) from:
+ RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/COPYING.TESTDATA.EPL-1
+ libgraphtheory/fileformats/dot/autotests/testfiles/COPYING.TESTDATA.EPL-1
+ .
+ Copyright Notice for Test Graphs
+ ================================
+ .
+ This folder contains original test data from the Graphviz project as
+ published at http://www.graphviz.org along with version 2.28.0. The files are
+ published under the EPL 1.0, see COPYING.TESTDATA for the full license.
+ .
+ As the license is _incompatible_ with GPL 2+, the supported test graphs are
+ only used as input data for the automatic unit tests; they are explicitly not
+ linked or imported to the program binaries or libraries.
+
+Files: App/InterfacePlugins/ApiDoc/ApiDocWidget.h
+       COPYING.LIB.LGPL-2.1
+       RocsCore/Data.cpp
        RocsCore/Data.h
        RocsCore/DataStructure.cpp
        RocsCore/DataStructure.h
-       RocsCore/DataType.cpp
-       RocsCore/DataType.h
        RocsCore/DataStructures/Graph/GraphNode.cpp
        RocsCore/DataStructures/Graph/GraphNode.h
+       RocsCore/DataType.cpp
+       RocsCore/DataType.h
+       RocsCore/EngineModules/Console/ConsoleModule.cpp
+       RocsCore/EngineModules/Console/ConsoleModule.h
        RocsCore/KrossBackend.cpp
        RocsCore/KrossBackend.h
        RocsCore/Pointer.cpp
@@ -33,46 +308,138 @@ Files: RocsCore/Data.cpp
        VisualEditor/Scene/GraphScene.cpp
        VisualEditor/Scene/GraphScene.h
        VisualEditor/Tools/ToolsPluginInterface.cpp
-Copyright: 2001-2002, Duncan Mac-Vicar Prett <duncan@kde.org>
+Copyright: 2011-2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2001-2002, Duncan Mac-Vicar Prett <duncan@kde.org>
+           1991-1999, Free Software Foundation, Inc
            2002-2004, Olivier Goffart <ogoffart@kde.org>
            2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
            2010-2011, Wagner Reck <wagner.reck@gmail.com>
-           2011-2012, Andreas Cord-Landwehr <cola@uni-paderborn.de>
 License: LGPL-2.1+
 
-Files: RocsCore/LoadSave/Plugins/gmlFileFormat/GMLGraphParsingHelper.cpp
-       RocsCore/LoadSave/Plugins/gmlFileFormat/GMLGraphParsingHelper.h
-       RocsCore/LoadSave/Plugins/dotFileFormat/DotGraphParsingHelper.cpp
+Files: doc/CMakeLists.txt
+       icons/CMakeLists.txt
+       libgraphtheory/CMakeLists.txt
+       libgraphtheory/autotests/CMakeLists.txt
+       libgraphtheory/editorplugins/CMakeLists.txt
+       libgraphtheory/editorplugins/assignvalues/CMakeLists.txt
+       libgraphtheory/editorplugins/generategraph/CMakeLists.txt
+       libgraphtheory/editorplugins/transformedges/CMakeLists.txt
+       libgraphtheory/fileformats/CMakeLists.txt
+       libgraphtheory/fileformats/dot/CMakeLists.txt
+       libgraphtheory/fileformats/dot/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/gml/CMakeLists.txt
+       libgraphtheory/fileformats/gml/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/rocs1/CMakeLists.txt
+       libgraphtheory/fileformats/rocs1/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/rocs2/CMakeLists.txt
+       libgraphtheory/fileformats/rocs2/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/tgf/CMakeLists.txt
+       libgraphtheory/fileformats/tgf/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/tikz/CMakeLists.txt
+       libgraphtheory/fileformats/tikz/autotests/CMakeLists.txt
+       libgraphtheory/kernel/CMakeLists.txt
+       libgraphtheory/qml/CMakeLists.txt
+       libgraphtheory/tests/CMakeLists.txt
+       src/autotests/CMakeLists.txt
+       src/plugins/scriptapi/CMakeLists.txt
+       src/plugins/scriptapi/html/CMakeLists.txt
+Copyright: 2012-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: BSD-2-clause
+
+Files: libgraphtheory/dialogs/propertieswidget.cpp
+       libgraphtheory/dialogs/propertieswidget.h
+       src/plugins/scriptapi/method.cpp
+       src/plugins/scriptapi/method.h
+       src/plugins/scriptapi/object.cpp
+       src/plugins/scriptapi/object.h
+       src/plugins/scriptapi/parameter.cpp
+       src/plugins/scriptapi/parameter.h
+       src/plugins/scriptapi/property.cpp
+       src/plugins/scriptapi/property.h
+       src/plugins/scriptapi/scriptapimanager.cpp
+       src/plugins/scriptapi/scriptapimanager.h
+       src/plugins/scriptapi/scriptapimodel.cpp
+       src/plugins/scriptapi/scriptapimodel.h
+       src/plugins/scriptapi/scriptapiwidget.cpp
+       src/plugins/scriptapi/scriptapiwidget.h
+       src/ui/codeeditorwidget.cpp
+       src/ui/codeeditorwidget.h
+       src/ui/grapheditorwidget.cpp
+       src/ui/grapheditorwidget.h
+       src/ui/journalwidget.cpp
+       src/ui/journalwidget.h
+       src/ui/scriptoutputwidget.cpp
+       src/ui/scriptoutputwidget.h
+       src/ui/sidedockwidget.cpp
+       src/ui/sidedockwidget.h
+Copyright: 2012-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: RocsCore/LoadSave/Plugins/dotFileFormat/DotGraphParsingHelper.cpp
        RocsCore/LoadSave/Plugins/dotFileFormat/DotGraphParsingHelper.h
-Copyright: 2006-2007, Gael de Chalendar <kleag@free.fr>
-           2012, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+       RocsCore/LoadSave/Plugins/gmlFileFormat/GmlGraphParsingHelper.cpp
+       RocsCore/LoadSave/Plugins/gmlFileFormat/GmlGraphParsingHelper.h
+       libgraphtheory/fileformats/dot/dotgrammarhelper.cpp
+       libgraphtheory/fileformats/dot/dotgrammarhelper.h
+       libgraphtheory/fileformats/gml/gmlgrammarhelper.cpp
+       libgraphtheory/fileformats/gml/gmlgrammarhelper.h
+Copyright: 2012, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2012-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2006-2007, Gael de Chalendar <kleag@free.fr>
 License: GPL-2
 
-Files: libgraphtheory/fileformats/dot/autotests/testfiles/*/*.gv
-Copyright: 2011 AT&T Intellectual Property
-License: EPL-1
-Comment:
- Copyright Notice for Test Graphs
- ================================
- .
- This folder contains original test data from the Graphviz project as published at
- http://www.graphviz.org along with version 2.28.0. The files are published under the EPL 1.0,
- see COPYING.TESTDATA for the full license.
- .
- As the license is _incompatible_ with GPL 2+, the supported test graphs are only used as input data
- for the automatic unit tests; they are explicitly not linked or imported to the program binaries or
- libraries.
+Files: App/InterfacePlugins/ApiDoc/HtmlView/bootstrap-apiview.css
+       App/InterfacePlugins/ApiDoc/HtmlView/objectApi.html
+       App/InterfacePlugins/ApiDoc/HtmlView/overview.html
+       src/plugins/scriptapi/html/bootstrap-apiview.css
+       src/plugins/scriptapi/html/objectApi.html
+       src/plugins/scriptapi/html/overview.html
+Copyright: 2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2013-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: CC-BY-3.0
+ Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported
+ licence available at http://creativecommons.org/licenses/by-sa/3.0/
+
+Files: App/InterfacePlugins/ApiDoc/HtmlView/bootstrap.css
+       src/plugins/scriptapi/html/bootstrap.css
+Copyright: 2013, Twitter, Inc
+License: Apache-2.0
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
 
 Files: doc/*
+       COPYING.DOC
 Copyright: 2009, Anne-Marie Mahfouf <annma@kde.org>
+           2011-2015, Andreas Cord-Landwehr <cordlandwehr@googlemail.com>
            2009, Tomaz Canabrava <tomaz.canabrava@gmail.com>
-           2011-2012, Andreas Cord-Landwehr <cordlandwehr@googlemail.com>
 License: GFDL-NIV-1.2+
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
            2012 Pino Toscano <pino@debian.org>
 License: GPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: EPL-1
     THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE
@@ -345,6 +712,28 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise,
+ the complete text of the GNU General Public License version 3 can be
+ found in `/usr/share/common-licenses/GPL-3'.
+
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -356,8 +745,30 @@ License: LGPL-2.1+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  Lesser General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public
+ You should have received a copy of the GNU Lesser General Public
  License along with this library; if not, see <http://www.gnu.org/licenses/>
  .
- On Debian systems, the complete text of the GNU LIBRARY
- GENERAL PUBLIC LICENSE version 2.1 can be found in "/usr/share/common-licenses/GPL-2"
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3'.
