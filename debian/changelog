@@ -2,7 +2,7 @@ rocs (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Merged with Debian
-  * Adding libkf5kiogui5 as build dep 
+  * Fixing install file 
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 17:02:58 +0000
 
