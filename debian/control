@@ -30,8 +30,8 @@ Build-Depends: cmake (>= 3.0.0~),
                qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
-Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/rocs.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/rocs.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/rocs.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/rocs.git
 
 Package: rocs
 Architecture: any
