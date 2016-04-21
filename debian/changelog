@@ -1,3 +1,12 @@
+rocs (4:16.04.0-1~1.gbp9e3775) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9e37757a2dc33c8103da1c79a1ca3493d0cd0c48 **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 00:37:14 +0200
+
 rocs (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
