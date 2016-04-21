@@ -1,11 +1,22 @@
-rocs (4:16.04.0-1~1.gbp9e3775) UNRELEASED; urgency=medium
+rocs (4:16.04.0-1~2.gbpa08e73) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a08e73b82a0363016e5cd3e73f1cf6bac401b65e **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @9e37757a2dc33c8103da1c79a1ca3493d0cd0c48 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 00:37:14 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Hacky use of xephyr
+  * No curly brackets in the trap call
+  * Add swrast for the autotests
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 21 Apr 2016 21:37:15 +0200
 
 rocs (4:15.12.1-1) experimental; urgency=medium
 
