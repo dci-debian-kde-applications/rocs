@@ -1,10 +1,6 @@
-rocs (4:16.04.1-1~1.gbp29c836) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @29c836e3e4e66325fb3c075b7e55f3794c3268fc **
+rocs (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @9e37757a2dc33c8103da1c79a1ca3493d0cd0c48 **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -16,9 +12,8 @@ rocs (4:16.04.1-1~1.gbp29c836) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:37:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 09:16:46 +0200
 
 rocs (4:15.12.1-1) experimental; urgency=medium
 
