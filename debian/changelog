@@ -4,13 +4,9 @@ rocs (4:16.04.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:08:05 +0000
 
-rocs (4:16.04.0-1~2.gbpa08e73) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a08e73b82a0363016e5cd3e73f1cf6bac401b65e **
+rocs (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @9e37757a2dc33c8103da1c79a1ca3493d0cd0c48 **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -21,8 +17,9 @@ rocs (4:16.04.0-1~2.gbpa08e73) UNRELEASED; urgency=medium
   * Add swrast for the autotests
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 21 Apr 2016 21:37:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 09:16:46 +0200
 
 rocs (4:15.12.1-1) experimental; urgency=medium
 
