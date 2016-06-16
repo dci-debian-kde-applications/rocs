@@ -1,3 +1,9 @@
+rocs (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:08:05 +0000
+
 rocs (4:16.04.0-1~2.gbpa08e73) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @a08e73b82a0363016e5cd3e73f1cf6bac401b65e **
