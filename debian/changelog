@@ -1,10 +1,11 @@
-rocs (4:16.08.0-1~1.gbp5ce819) UNRELEASED; urgency=medium
+rocs (4:16.08.0-1~2.gbpdc393c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5ce8198995599d1399b4a34fa83b156f5614e240 **
+  ** SNAPSHOT build @dc393cf3eb5dd6663f7ac25a75ef5d3857ad6367 **
 
   * UNRELEASED
+  * Update install files
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:37:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 31 Aug 2016 10:34:24 +0200
 
 rocs (4:16.04.1-1) unstable; urgency=medium
 
