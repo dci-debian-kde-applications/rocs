@@ -1,3 +1,9 @@
+rocs (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:56 +0000
+
 rocs (4:16.08.0-0neon) xenial; urgency=medium
 
   * New release
