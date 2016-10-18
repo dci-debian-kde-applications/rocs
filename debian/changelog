@@ -1,12 +1,9 @@
-rocs (4:16.08.1-1~1.gbpb5cdb7) UNRELEASED; urgency=medium
+rocs (4:16.08.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @b5cdb7642d7ae26dd12fbed47476e46d41311492 **
-
-  * UNRELEASED
+  * New upstream release (16.08.1)
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:37:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 14:58:06 +0200
 
 rocs (4:16.04.1-1) unstable; urgency=medium
 
