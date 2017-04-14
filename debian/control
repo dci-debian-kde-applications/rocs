@@ -37,6 +37,8 @@ Package: rocs
 Architecture: any
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: graph theory IDE
  Rocs aims to be a Graph Theory IDE for helping professors to show the results
  of a graph algorithm and also helping students to do the algorithms.
