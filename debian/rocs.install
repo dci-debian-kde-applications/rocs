@@ -7,5 +7,6 @@ usr/share/doc/HTML/*/rocs/
 usr/share/icons/hicolor/*/actions/rocs*
 usr/share/icons/hicolor/*/apps/rocs.*
 usr/share/kxmlgui5/rocs/
+usr/share/locale/
 usr/share/metainfo/org.kde.rocs.appdata.xml
 usr/share/rocs/
