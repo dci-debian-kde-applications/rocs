@@ -4,11 +4,10 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Pino Toscano <pino@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 3.0.0~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.15.0~),
-               libkf5doctools-dev (>= 5.7~),
                libboost-dev (>= 1.49~),
                libboost-graph-dev,
                libgrantlee5-dev (>= 5.0.0~),
@@ -17,6 +16,7 @@ Build-Depends: cmake (>= 3.0.0~),
                libkf5coreaddons-dev (>= 5.15~),
                libkf5crash-dev (>= 5.15~),
                libkf5declarative-dev (>= 5.15~),
+               libkf5doctools-dev (>= 5.7~),
                libkf5i18n-dev (>= 5.15~),
                libkf5itemviews-dev (>= 5.15~),
                libkf5texteditor-dev (>= 5.15~),
@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 3.0.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qtscript5-dev (>= 5.4)
+               qtscript5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/rocs.git
