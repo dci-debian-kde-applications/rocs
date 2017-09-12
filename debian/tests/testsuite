@@ -8,4 +8,4 @@ xvfb-run -a --server-args="-screen 0 1024x768x24" \
 
 trap "kill ${x_pid}" EXIT
 
-DISPLAY=:2 dbus-launch --exit-with-session dh_auto_test
+DISPLAY=:2 dbus-run-session -- dh_auto_test
