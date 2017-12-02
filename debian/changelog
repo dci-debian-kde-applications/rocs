@@ -7,6 +7,7 @@ rocs (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
   * Drop debian/not-installed file, no more useful.
+  * Do not ship development files (headers and .so symlinks).
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 11:53:06 +0100
 
